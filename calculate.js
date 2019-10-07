@@ -25,10 +25,11 @@ function calculate(num,num1,sign) {
         return realNum % realNum1
     } else {
         return 'Sorry, that\'s not a mathematical operation!'
-    }
+    };
     
     
 }
 // console.log(calculate("num", "num", "*")) 
+
 
 module.exports = calculate;
