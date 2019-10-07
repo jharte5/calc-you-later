@@ -23,12 +23,12 @@ function calculate(num,num1,sign) {
         return realNum % realNum1
     } else if(sign === "mod") {
         return realNum % realNum1
-    } else (sign !== "+") {
-        return 'Sorry, thats not a mathematical operation!'
+    } else {
+        return 'Sorry, that\'s not a mathematical operation!'
     }
     
     
 }
-console.log(calculate("num", "num", "*")) 
+// console.log(calculate("num", "num", "*")) 
 
 module.exports = calculate;
