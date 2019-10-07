@@ -23,11 +23,16 @@ function calculate(num,num1,sign) {
         return realNum % realNum1
     } else if(sign === "mod") {
         return realNum % realNum1
+    }  else if(sign === "added to") {
+        return realNum + realNum1
+    }  else if(sign === "subtracted from") {
+        return realNum - realNum1
+    }  else if(sign === "multiplied by") {
+        return realNum * realNum1
+    }  else if(sign === "divided by") {
+        return realNum / realNum1
     } else {
         return 'Sorry, that\'s not a mathematical operation!'
-    };
-    
-    
 }
 // console.log(calculate("num", "num", "*")) 
 
